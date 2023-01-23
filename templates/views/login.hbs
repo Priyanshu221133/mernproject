@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+    <title>Log In</title>
+</head>
+
+<body>
+    {{>navbar}}
+
+    {{!-- Login form --}}
+
+    <section class="section1">
+        <div class="container">
+            <div class="row d-flex justify-content-center mb-5">
+                <div class="col-4 col-md-4 mt-5">
+                    <h6 class="text-center">Employee Login Form</h6>
+                    <div class="box-login mt-4 border border-4 pt-4 pb-4 ">
+                        {{!-- image --}}
+                        <div class="img d-flex justify-content-center">
+                            <img src="https://i.pinimg.com/564x/ca/52/e6/ca52e6e168595f767c2121a68cc227b0.jpg"
+                                alt="login-form" height="50px" width="50px" style="border-radius: 50px;">
+                        </div>
+
+                        {{!-- box --}}
+
+                        <div class="form-box mt-3">
+
+                            <form action="/login" method="POST">
+                                <label for="staticEmail" class=" col-form-label">Email:</label>
+                                <div class="col-sm-10 border border-4">
+                                    <input type="Email" class="form-control" id="staticEmail" placeholder="Your Email*" required value="" name="email">
+                                </div>
+
+                                <label for="staticEmail" class=" col-form-label">Password:</label>
+                                <div class="col-sm-10 border border-4">
+                                    <input type="password" class="form-control" id="staticEmail" required placeholder="Your Password*" value="" name="password">
+                                </div>
+
+                                {{!-- button --}}
+                                <button class="btn btn-lg btn-primary btn-block btn-log" type="submit">Sign in</button>
+
+                                <label class="checkbox pull-left mt-3">
+                                    <input type="checkbox" name="" id="" value="remember-me">
+                                    Remember me
+                                </label>   
+                                <a href="#" class="pull-righht need-help">Need help?</a><span class="clearfix"></span>       
+                            </form>
+
+                        </div>
+                    </div>
+                    <a href="/registration" class="new-account text-center">Create an account</a>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>

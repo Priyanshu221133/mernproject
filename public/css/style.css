@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,100;8..30,200;8..30,300;8..30,400;8..30,500;8..30,600;8..30,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Piazzolla', serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-bg : #1e272e;
+    --main-color : #0097e6;
+}
+/* html{
+     font-size: 62.5%;
+} */
+
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Nav - Bar */
+header{
+    height: 300px;
+}
+.te{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.sec1 p{
+    font-family: italic;
+}
+.top2 .items{
+    border: 1px solid white;
+    margin-right: 5.9rem;
+}
+.top2 .items .content-span{
+    padding: 4rem 1rem 3rem 2rem;
+}
+
+.forms input[type="submit"]{
+    font-size: 15px;
+    background-color: #0039f4;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 0 1rem;
+}
+
+/* login page */
+.box-login{
+    background-color: rgb(235, 235, 235);
+}
+.form-box{
+    margin-left: 3%;
+}
+.btn-log{
+    width:83%;
+    margin-left: 2px;
+    margin-top: 1.5rem;
+}
